@@ -11,6 +11,8 @@ using static UnityEngine.UI.GridLayoutGroup;
 
 public class Monster : MonoBehaviour
 {
+    public UnityEngine.UI.Image smashImage;
+
     public UnityEngine.UI.Slider monsterHpSlider;
 
     //스턴 추가 - hit상태
@@ -60,6 +62,10 @@ public class Monster : MonoBehaviour
     public int monsterId;
 
     public Type monsterType = Type.HUMAN_ROBOT;
+
+    [Header("분쇄")]
+    public int count = 0;      //깍아냄
+    public int maxCount = 10;  //깍아냄 횟수 충족
 
     [Header("몬스터 원거리 관련")]
     public Transform bulletPortLeft;
@@ -538,6 +544,16 @@ public class Monster : MonoBehaviour
     // 스턴 딜레이
     public virtual IEnumerator StunDelay()
     {
+        //분쇄 카운터
+        if (count >= maxCount)
+        {
+            //TODO:데미지 받아서 카운트 충족시 디버프
+
+
+            //smashImage.enabled = true;
+
+        }
+
         isStun = true;
         anim.SetTrigger(hashHit);
         damageable.stun = true;
@@ -547,6 +563,9 @@ public class Monster : MonoBehaviour
         yield break;
     }
 
+    
+
+    
    
     void OnDrawGizmos()
     {

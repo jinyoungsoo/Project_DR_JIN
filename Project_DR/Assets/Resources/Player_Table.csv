@@ -1,2 +1,2 @@
 ID,Description,Health,Speed,FadeSpeed,GameOverText,BackDash,BackDashCD,DeadZone,ActiveZone
-1001,PC,500.0,1.25,0.2,You Died,16.0,1.5,0.7,0.3
+1001,PC,500.0,1.25,0.2,You Died,4.0,1.5,0.7,0.3

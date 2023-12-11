@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/01_DR/Scenes/JH/JH_LobbyScene.unity
     guid: 26a6ab265365bef43b182095d010b05c
-  - enabled: 1
+  - enabled: 0
     path: Assets/01_DR/Scenes/SG/SG_TestScene.unity
     guid: ad1af0f9f4c94264e97d5dfd7e14cc40
   - enabled: 0
@@ -23,7 +23,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/01_DR/Scenes/JS/JS_DataLoadingScene.unity
     guid: dec4f1210156bcd4eba40ecfa703ec85
-  - enabled: 1
+  - enabled: 0
     path: Assets/01_DR/Scenes/JS/JS_LoginScene.unity
     guid: c0e2e2b670b579a43acb0af3b0feef28
   - enabled: 0
@@ -41,19 +41,19 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/01_DR/Scenes/YS/YS MonsterTestScene.unity
     guid: 39965f1308f2da140abe435470da8407
-  - enabled: 0
+  - enabled: 1
     path: Assets/01_DR/Scenes/YS/Boss/YS_BossDataLodingScene.unity
     guid: 789aaa51084bb2142afbd9573bc75016
-  - enabled: 0
+  - enabled: 1
     path: Assets/01_DR/Scenes/YS/Boss/YS BossRoomScene.unity
     guid: 64f3808e10a4a8b42bc7c3f1677e4396
   - enabled: 0
     path: Assets/01_DR/Scenes/JS/JS_MainScene2.unity
     guid: 14844720c79c1274abd453a7ce033da6
-  - enabled: 1
+  - enabled: 0
     path: Assets/01_DR/Scenes/SG/SG_DataLodingScene.unity
     guid: d42d3cf52463a7a42a3395d483b96215
-  - enabled: 1
+  - enabled: 0
     path: Assets/01_DR/Scenes/JS/JS_LobbyScene.unity
     guid: 15d2cc654eba96e43b8a609d0b3a5b55
   m_configObjects:
